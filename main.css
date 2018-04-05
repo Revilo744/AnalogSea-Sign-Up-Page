@@ -1,0 +1,155 @@
+body {
+  background: #0093ff;
+  font-family: "Montserrat";
+}
+
+header img {
+  width: auto;
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+
+.signUpBox {
+  width: 400px;
+  height: 480px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.8em;
+  margin-bottom: auto;
+}
+
+.signUpText {
+  font-family: "Montserrat";
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 25px;
+  color: #4d4d4d;
+
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+#email {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22em;
+  height: 3.8em;
+  border: 2px solid lightgrey;
+  border-radius: 0.40em;
+  margin-top: 5em;
+}
+
+#email::placeholder {
+  font-family: 'Montserrat';
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #bfbfbf;
+}
+
+#password {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22em;
+  height: 3.8em;
+  border: 2px solid lightgrey;
+  border-radius: 0.40em;
+  margin-top: 5em;
+}
+
+#password::placeholder {
+  font-family: 'Montserrat';
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #bfbfbf;
+}
+
+label {
+  font-family: 'Montserrat';
+}
+
+.emailLabel {
+  position: absolute;
+  padding-left: 3em;
+  top: 190px;
+  font-weight: bold;
+}
+
+.passwordLabel {
+  position: absolute;
+  padding-left: 3em;
+  top: 310px;
+  font-weight: bold;
+}
+
+.submitButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22em;
+  height: 4.2em;
+  background-color: #15CD72;
+  margin-top: 40px;
+  border: none;
+  border-radius: 0.35em;
+  cursor: pointer;
+}
+
+.submitButton p {
+  font-family: "Montserrat";
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 1000;
+}
+
+.submitButton:hover {
+  background-color: #109801;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.submitButton:focus {
+outline: none;
+background-color: #109801;
+-webkit-transition: background 0.5s;
+-moz-transition: background 0.5s;
+-o-transition: background 0.5s;
+transition: background 0.5s;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+.footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer a:hover {
+  font-size: 35px;
+  -webkit-transition: font-size 0.35s;
+  -moz-transition: font-size 0.35s;
+  -o-transition: font-size 0.35s;
+  transition: font-size 0.35s;
+}
